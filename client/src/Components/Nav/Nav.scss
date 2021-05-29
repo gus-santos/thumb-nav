@@ -1,0 +1,51 @@
+$menu-size: 7rem;
+$icon-size: 2rem;
+
+.nav {
+    // filter: drop-shadow(10px 10px 1px #4444dd);
+}
+
+.menu {
+    background: white;
+    box-shadow: 1px 2px 10px #808080;
+    height: $menu-size;
+    width: $menu-size;
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__item {
+        position: absolute;
+
+        &--1 {
+            align-self: flex-start;
+            background: center / cover no-repeat url('../../Icons/hard-drive-svgrepo-com.svg');
+        }
+        &--2 {
+            position: relative;
+            margin-right: auto;
+            background: center / cover no-repeat url('../../Icons/arrow-left-circled-svgrepo-com.svg');
+        }
+        &--3 {
+            position: relative;
+            margin-left: auto;background: center / cover no-repeat url('../../Icons/arrow-right-circled-svgrepo-com.svg');
+        }
+        &--4 {
+            align-self: flex-end;
+            background: center / cover no-repeat url('../../Icons/delete-circled-outline-svgrepo-com.svg');
+        }
+    }
+
+    &__link {
+        height: $icon-size;
+        width: $icon-size;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: transparent; // [!] display: none and visibility: hidden don't work. I still don't love how the "button" is as wide as the words
+    }
+}
