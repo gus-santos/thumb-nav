@@ -4,6 +4,8 @@ Thumb Nav is an attempt to improve a mobile navbar, by putting all icons in a ci
 
 First upload is the simplest version possible, with clashing colours for contrast.
 
+It's been deployed to <https://thumb-nav.herokuapp.com/>
+
 ## To do
 
 - Make it actually look pretty.
