@@ -26,22 +26,22 @@
 .menu__item {
   position: absolute;
 }
-.menu__item--1 {
+.menu__item--save {
   -ms-flex-item-align: start;
       align-self: flex-start;
   background: center/cover no-repeat url("../../Icons/hard-drive-svgrepo-com.svg");
 }
-.menu__item--2 {
+.menu__item--back {
   position: relative;
   margin-right: auto;
   background: center/cover no-repeat url("../../Icons/arrow-left-circled-svgrepo-com.svg");
 }
-.menu__item--3 {
+.menu__item--next {
   position: relative;
   margin-left: auto;
   background: center/cover no-repeat url("../../Icons/arrow-right-circled-svgrepo-com.svg");
 }
-.menu__item--4 {
+.menu__item--delete {
   -ms-flex-item-align: end;
       align-self: flex-end;
   background: center/cover no-repeat url("../../Icons/delete-circled-outline-svgrepo-com.svg");

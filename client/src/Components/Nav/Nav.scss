@@ -24,20 +24,20 @@ $icon-size: 2rem;
     &__item {
         position: absolute;
 
-        &--1 {
+        &--save {
             align-self: flex-start;
             background: center / cover no-repeat url('../../Icons/hard-drive-svgrepo-com.svg');
         }
-        &--2 {
+        &--back {
             position: relative;
             margin-right: auto;
             background: center / cover no-repeat url('../../Icons/arrow-left-circled-svgrepo-com.svg');
         }
-        &--3 {
+        &--next {
             position: relative;
             margin-left: auto;background: center / cover no-repeat url('../../Icons/arrow-right-circled-svgrepo-com.svg');
         }
-        &--4 {
+        &--delete {
             align-self: flex-end;
             background: center / cover no-repeat url('../../Icons/delete-circled-outline-svgrepo-com.svg');
         }
