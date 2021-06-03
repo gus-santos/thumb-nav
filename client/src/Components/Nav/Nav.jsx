@@ -1,12 +1,17 @@
 // Links need text for screen readers
-import React  from 'react';
+import { useState } from 'react';
 import './Nav.css';
 
-function Content(props) {
-    console.log(props.navSide);
+function Nav() {
+    const [navSide, setNavSide] = useState("right");
+
+    const changeSide = () => {
+        setNavSide(!navSide);
+    };
+
     return (
         <nav className="nav">
-            <ul className={`nav__menu menu menu--${props.navSide}`}>
+            <ul className={`nav__menu menu menu--${navSide ? "right" : "left"}`} onClick={changeSide}>
                 <li className="menu__item menu__item--1"><a className="menu__link" href="./">save</a></li>
                 <li className="menu__item menu__item--2"><a className="menu__link" href="./">back</a></li>
                 <li className="menu__item menu__item--3"><a className="menu__link" href="./">next</a></li>
@@ -16,4 +21,4 @@ function Content(props) {
     )
 }
 
-export default Content;
+export default Nav;
