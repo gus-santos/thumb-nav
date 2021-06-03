@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './Nav.css';
 
 function Nav() {
-    const [navSide, setNavSide] = useState("right");
+    const [navSide, setNavSide] = useState("false");
 
     const changeSide = () => {
         setNavSide(!navSide);
