@@ -8,6 +8,4 @@ It's been deployed to <https://thumb-nav.herokuapp.com/>
 
 ## To do
 
-- Make it actually look pretty.
-- Add JS to move it to the left for lefties.
-- Add JS to move it up and down (and keep it there).
+- Add JS to move it around (and keep it there).
