@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Main.min.css';
+import './styles/main.min.css';
 
 import NavBanner from './Components/NavBanner/NavBanner';
 import Content from './Components/Content/Content';
