@@ -23,32 +23,5 @@ $icon-size: 2rem;
 
     &__item {
         position: absolute;
-
-        &--save {
-            align-self: flex-start;
-            background: center / cover no-repeat url('../../Icons/hard-drive-svgrepo-com.svg');
-        }
-        &--back {
-            position: relative;
-            margin-right: auto;
-            background: center / cover no-repeat url('../../Icons/arrow-left-circled-svgrepo-com.svg');
-        }
-        &--next {
-            position: relative;
-            margin-left: auto;background: center / cover no-repeat url('../../Icons/arrow-right-circled-svgrepo-com.svg');
-        }
-        &--delete {
-            align-self: flex-end;
-            background: center / cover no-repeat url('../../Icons/delete-circled-outline-svgrepo-com.svg');
-        }
-    }
-
-    &__link {
-        height: $icon-size;
-        width: $icon-size;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: transparent; // [!] display: none and visibility: hidden don't work. I still don't love how the "button" is as wide as the words
     }
 }
