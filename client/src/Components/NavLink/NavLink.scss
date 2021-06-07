@@ -1,21 +1,32 @@
+@import '../../styles/partials/mixins';
+
 .menu {
     &__item {
         &--save {
             align-self: flex-start;
-            background: center / cover no-repeat url('../../Icons/hard-drive-svgrepo-com.svg');
+            background: center / cover no-repeat url('../../icons/hard-drive-svgrepo-com.svg');
+
+            @include for-tablet-portrait-up {
+                margin-right: 2rem;
+            }
         }
         &--back {
             position: relative;
             margin-right: auto;
-            background: center / cover no-repeat url('../../Icons/arrow-left-circled-svgrepo-com.svg');
+            background: center / cover no-repeat url('../../icons/arrow-left-circled-svgrepo-com.svg');
         }
         &--next {
             position: relative;
-            margin-left: auto;background: center / cover no-repeat url('../../Icons/arrow-right-circled-svgrepo-com.svg');
+            margin-left: auto;
+            background: center / cover no-repeat url('../../icons/arrow-right-circled-svgrepo-com.svg');
         }
         &--delete {
             align-self: flex-end;
-            background: center / cover no-repeat url('../../Icons/delete-circled-outline-svgrepo-com.svg');
+            background: center / cover no-repeat url('../../icons/delete-circled-outline-svgrepo-com.svg');
+
+            @include for-tablet-portrait-up {
+                margin-left: 2rem;
+            }
         }
     }
 

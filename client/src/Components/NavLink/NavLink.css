@@ -1,22 +1,32 @@
 .menu__item--save {
   -ms-flex-item-align: start;
       align-self: flex-start;
-  background: center/cover no-repeat url("../../Icons/hard-drive-svgrepo-com.svg");
+  background: center/cover no-repeat url("../../icons/hard-drive-svgrepo-com.svg");
+}
+@media screen and (min-width: 600px) {
+  .menu__item--save {
+    margin-right: 2rem;
+  }
 }
 .menu__item--back {
   position: relative;
   margin-right: auto;
-  background: center/cover no-repeat url("../../Icons/arrow-left-circled-svgrepo-com.svg");
+  background: center/cover no-repeat url("../../icons/arrow-left-circled-svgrepo-com.svg");
 }
 .menu__item--next {
   position: relative;
   margin-left: auto;
-  background: center/cover no-repeat url("../../Icons/arrow-right-circled-svgrepo-com.svg");
+  background: center/cover no-repeat url("../../icons/arrow-right-circled-svgrepo-com.svg");
 }
 .menu__item--delete {
   -ms-flex-item-align: end;
       align-self: flex-end;
-  background: center/cover no-repeat url("../../Icons/delete-circled-outline-svgrepo-com.svg");
+  background: center/cover no-repeat url("../../icons/delete-circled-outline-svgrepo-com.svg");
+}
+@media screen and (min-width: 600px) {
+  .menu__item--delete {
+    margin-left: 2rem;
+  }
 }
 .menu__link {
   height: 2rem;
