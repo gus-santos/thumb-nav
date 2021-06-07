@@ -1,4 +1,14 @@
-// 
+@import '../../styles/partials/mixins';
+
+.main-title {
+    padding: 1rem;
+    text-align: center;
+    display: none;
+
+    @include for-tablet-portrait-up {
+        display: block;
+    }
+}
 
 .content {
     padding: 2rem 1rem 14rem;
