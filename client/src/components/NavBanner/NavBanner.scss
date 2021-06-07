@@ -1,0 +1,17 @@
+@import '../../styles/partials/mixins';
+@import '../../styles/partials/keyframes';
+
+.navbanner {
+    position: absolute;
+    width: 100%;
+    padding: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: 1px ridge #aaa;
+    text-align: center;
+    animation: slide 2s 2s ease-out forwards;
+
+    @include for-tablet-portrait-up {
+        display: none;
+    }
+}
