@@ -2,6 +2,8 @@
 import { useState } from 'react';
 import './Nav.css';
 
+import NavLink from '../NavLink/NavLink';
+
 function Nav() {
     const [navSide, setNavSide] = useState("false");
 
@@ -12,10 +14,10 @@ function Nav() {
     return (
         <nav className="nav">
             <ul className={`nav__menu menu menu--${navSide ? "right" : "left"}`} onClick={changeSide}>
-                <li className="menu__item menu__item--save"><a className="menu__link" href="./">save</a></li>
-                <li className="menu__item menu__item--back"><a className="menu__link" href="./">back</a></li>
-                <li className="menu__item menu__item--next"><a className="menu__link" href="./">next</a></li>
-                <li className="menu__item menu__item--delete"><a className="menu__link" href="./">delete</a></li>
+                <NavLink name="save" link="./" />
+                <NavLink name="back" link="./" />
+                <NavLink name="next" link="./" />
+                <NavLink name="delete" link="./" />
             </ul>
         </nav>
     )
