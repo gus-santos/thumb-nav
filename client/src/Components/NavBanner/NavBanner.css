@@ -29,4 +29,9 @@
   -webkit-animation: slide 2s 2s ease-out forwards;
           animation: slide 2s 2s ease-out forwards;
 }
+@media screen and (min-width: 600px) {
+  .navbanner {
+    display: none;
+  }
+}
 /*# sourceMappingURL=NavBanner.css.map */
