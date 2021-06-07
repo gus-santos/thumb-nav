@@ -19,12 +19,14 @@
   }
 }
 .navbanner {
+  position: absolute;
+  width: 100%;
   padding: 1rem;
   color: #fff;
   background-color: #333;
   border: 1px ridge #aaa;
   text-align: center;
-  -webkit-animation: slide 2s 5s ease-out forwards;
-          animation: slide 2s 5s ease-out forwards;
+  -webkit-animation: slide 2s 2s ease-out forwards;
+          animation: slide 2s 2s ease-out forwards;
 }
 /*# sourceMappingURL=NavBanner.css.map */

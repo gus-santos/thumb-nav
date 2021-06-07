@@ -9,10 +9,12 @@
 }
 
 .navbanner {
+    position: absolute;
+    width: 100%;
     padding: 1rem;
     color: #fff;
     background-color: #333;
     border: 1px ridge #aaa;
     text-align: center;
-    animation: slide 2s 5s ease-out forwards;
+    animation: slide 2s 2s ease-out forwards;
 }
