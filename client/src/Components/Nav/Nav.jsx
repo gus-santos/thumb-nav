@@ -1,6 +1,6 @@
 // Links need text for screen readers
 import { useState } from 'react';
-import './Nav.css';
+import './Nav.min.css';
 
 import NavLink from '../NavLink/NavLink';
 

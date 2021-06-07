@@ -1,4 +1,4 @@
-import './NavBanner.css';
+import './NavBanner.min.css';
 
 function NavBanner() {
 

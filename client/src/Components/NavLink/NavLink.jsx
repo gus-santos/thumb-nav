@@ -1,6 +1,6 @@
 // <NavLink name="" link="./" />
 
-import './NavLink.css';
+import './NavLink.min.css';
 
 function NavLink(props) {
 
